@@ -9,7 +9,6 @@ public class Kunai : MonoBehaviour
 
     void OnEnable()
     {
-        Debug.Log("Start na kunai");
         mainCamera = Camera.main;
         mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         var direction = mousePos - transform.position;

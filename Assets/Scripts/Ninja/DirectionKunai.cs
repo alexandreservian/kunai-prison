@@ -21,8 +21,8 @@ public class DirectionKunai : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
 
         if(Input.GetMouseButtonDown(0) && !kunai.activeSelf) {
-            kunai.SetActive(true);
             kunai.transform.position = kunaiOrigins.position;
+            kunai.SetActive(true);
         }
 
         if(Input.GetMouseButtonDown(1) && kunai.activeSelf) {
