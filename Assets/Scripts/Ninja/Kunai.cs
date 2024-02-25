@@ -8,8 +8,6 @@ public class Kunai : MonoBehaviour
     [Header("Configuração da kunai")]
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private float force;
-    [SerializeField] private float limitHorizontal = 1;
-    [SerializeField] private float limitVertical = 1;
     private Vector2 screenBounds;
 
     void OnEnable()
