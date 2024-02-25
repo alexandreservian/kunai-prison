@@ -260,6 +260,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2005e1ee38047410b9f7135d8b9630bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ninja: {fileID: 1572790977}
+  kunai: {fileID: 680105025}
+  kunaiOrigins: {fileID: 933574163}
+--- !u!1001 &680105024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.0626
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2065
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 309889210180870532, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4970376724854466081, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: force
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924420580551936656, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_Name
+      value: Kunai
+      objectReference: {fileID: 0}
+    - target: {fileID: 5924420580551936656, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+--- !u!1 &680105025 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5924420580551936656, guid: 9f996d023a14c4184945e42574940b02, type: 3}
+  m_PrefabInstance: {fileID: 680105024}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &933574162
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,3 +508,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 1572790977}
+  - {fileID: 680105024}
