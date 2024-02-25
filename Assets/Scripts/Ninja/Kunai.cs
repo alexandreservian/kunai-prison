@@ -38,6 +38,4 @@ public class Kunai : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
-    
-
 }
